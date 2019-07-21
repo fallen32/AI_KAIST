@@ -11,9 +11,9 @@
 
 !**주의**하실 점은 주어진 모델의 형태를 수정해서는 안됩니다. 
 
-기본 형태: \[(Input: 32*32) -> 512 -> 512 -> 512 -> (Output: 10)\] 
+기본 모델: \[(Input: 32*32) -> 512 -> 512 -> 512 -> (Output: 10)\] 
 
-Drop out 등의 layer는 추가하실 수 있지만 기본 모델의 hidden layer, unit 수는 변경하실 수 없습니다.
+Dropout 등의 layer는 추가하실 수 있지만 기본 모델의 hidden layer, unit 수는 변경하실 수 없습니다.
 
 ### Submission
 - `assignment.ipynb` 파일 내부의 코드를 수정하고 실행한 결과를 포함하여 `assignment_<이름>.ipynb` 형태로 파일명을 바꾸어 저장 (따로 코드 실행 결과를 지워주지 않으면 실행 결과가 자동으로 함께 저장됩니다.)
