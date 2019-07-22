@@ -10,7 +10,16 @@
 
 1. CNN : CNN에서의 간단한 convolution 연산과 pooling 연산을 직접 계산해보며 CNN의 특징추출 단계를 이해하기 위한 과제입니다. 과제에 대한 자세한 설명은 CNN 폴더의 `CNN_과제설명.pdf` 파일을 참고 부탁드립니다.
 
-2. RNN : 교수님이 수업에서 다루셨던 Turing Recurrent Network [Hyotyniemi 1996]에 관한 숙제입니다. 교수님의 강의 자료와 추가 제공되는 PPT를 참고부탁드립니다. 예시 코드는<code>example.ipynb</code>를 참고 부탁드립니다. 다음 instrunctions에 해당하는 transition matrix를 찾아제출하고, initial state가 V0=1, V1=2일 때 instruction 1부터 실행하여 얻게되는 steady state 결과를 제출하시면 됩니다. 또한 initial state가 V0=1, V1=1일 때 instrunction 1부터 실행하여 얻게 되는 steady state결과도 보고서에 적어주십시오. 보고서에서는 transition matrix를 적어주시고, 각 initaial state마다 instrunction을 거치며 steady state까지 가는 중간 state을 적어주시면 됩니다. 과정의 경우, 손으로 계산하셔도 되고 프로그래을 짜서 하셔도 됩니다.
+2. RNN : 교수님이 수업에서 다루셨던 Turing Recurrent Network [Hyotyniemi 1996]에 관한 숙제입니다. 교수님의 강의 자료와 추가 제공되는 PPT를 참고부탁드립니다. 예시 코드는<code>example.ipynb</code>를 참고 부탁드립니다. 
+- 1. V0 <- V0
+- 2. V1 <- V1-1
+- 3. V0 <- V0+1
+- 4. IF V1 $\neq$ 0 GOTO 6
+- 5. V0 <- V0+1
+- 6. V1 <- V1-1
+- 7. END (Do Nothing)
+
+- 다음 instrunctions에 해당하는 transition matrix를 찾아제출하고, initial state가 V0=1, V1=2일 때 instruction 1부터 실행하여 얻게되는 steady state 결과를 제출하시면 됩니다. 또한 initial state가 V0=1, V1=1일 때 instrunction 1부터 실행하여 얻게 되는 steady state결과도 보고서에 적어주십시오. 보고서에서는 transition matrix를 적어주시고, 각 initaial state마다 instrunction을 거치며 steady state까지 가는 중간 state을 적어주시면 됩니다. 과정의 경우, 손으로 계산하셔도 되고 프로그래을 짜서 하셔도 됩니다.
 
 
 ### Grading
