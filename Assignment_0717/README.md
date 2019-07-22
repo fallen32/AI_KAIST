@@ -1,11 +1,11 @@
 # Deep learning regularization and optimization
 
-실습 일시: 2019년 7월 17일(수) 오전 9시 ~ 오후 1시
+실습 일시: 2019년 7월 17일(수), 9:00 - 13:00
 
 담당 조교: 이준영 (joonyoung.yi@kaist.ac.kr), 백용수(yongsubaek@mli.kaist.ac.kr)
 
 ### Introduction
-지금까지 배운 regularization, optimization 기법들을 이용하여 가장 높은 성능을 끌어내는  
+지금까지 배운 regularization, optimization 기법들을 이용하여 가장 높은 성능을 끌어내는 과제입니다.
 
 [`assignment.ipynb`](assignment.ipynb) 파일을 잘 읽으시고 지시하는 과제를 수행하시기 바랍니다.
 
