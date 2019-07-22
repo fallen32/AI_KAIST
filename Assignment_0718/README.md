@@ -14,8 +14,8 @@
 - 1. V0 <- V0
 - 2. V1 <- V1-1
 - 3. V0 <- V0+1
-- 4. IF V1 $ \neq $ 0 GOTO 6
-<a href="https://www.codecogs.com/eqnedit.php?latex=\neq" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\neq" title="\neq" /></a>
+- 4. IF V1 <a href="https://www.codecogs.com/eqnedit.php?latex=\neq" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\neq" title="\neq" /></a> 0 GOTO 6
+
 - 5. V0 <- V0+1
 - 6. V1 <- V1-1
 - 7. END (Do Nothing)
