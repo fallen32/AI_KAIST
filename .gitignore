@@ -1,2 +1,3 @@
 #ignore dir list
 */.ipynb_checkpoints/
+*/*/.ipynb_checkpoints/
