@@ -1,1 +1,0 @@
-# sparsification_samsung
