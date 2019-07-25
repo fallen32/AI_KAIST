@@ -19,6 +19,9 @@ Training data는 x의 범위가 -3부터 3까지만 주어졌으며 test data는
 
 모두 작성하시고 돌려봤을 때 제대로 돌아가면 Training log가 뜰 것이며 마지막으로 [`predictions.png`](predictions.png)와 비슷한 그림이 하나 생성이 될 겁니다. 
 
+### Hints
+실습 시간에 했었던 https://github.com/sungyubkim/KAIST-AI-LAB-20190724 를 참고해주세요! 
+
 ### Submission
 - `assignments.ipynb` 파일 내부의 코드를 수정하고 실행한 결과를 포함하여 `assignments_<이름>.ipynb` 형태로 파일명을 바꾸어 저장 (따로 코드 실행 결과를 지워주지 않으면 실행 결과가 자동으로 함께 저장됩니다.)
 - 실행해서 얻어진 그림과 자신이 기본 코드에서 추가한 부분을 기록하여 `report_<이름>.txt` 형태로 저장
