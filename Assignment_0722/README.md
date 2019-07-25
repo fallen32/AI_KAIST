@@ -24,7 +24,7 @@ Training data는 x의 범위가 -3부터 3까지만 주어졌으며 test data는
 - 실행해서 얻어진 그림과 자신이 기본 코드에서 추가한 부분을 기록하여 `report_<이름>.txt` 형태로 저장
 - `assignments_<이름>.ipynb`, `report_<이름>.txt` 두 파일을 `submission_<이름>.zip` 으로 압축하여 제출
 
-담당 조교 모두에게 이메일로 제출해 주시기 바랍니다.
+윤지훈 조교 (arcprime@kaist.ac.kr)에게 제출해 
 
 ### Grading
 제출하신 결과들의 분포를 확인하고 기준을 나누어 평가할 예정입니다.
