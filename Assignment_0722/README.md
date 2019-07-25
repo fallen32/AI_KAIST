@@ -12,7 +12,7 @@ Training data는 x의 범위가 -3부터 3까지만 주어졌으며 test data는
 
 이 repo에 있는 data_statistics.png는 여러분들이 사용하게 될 데이터의 그림을 나타냅니다.
 
-[`assignment.ipynb`](assignment.ipynb) 파일의 세 부분만 채워주시면 됩니다.
+[`assignments.ipynb`](assignments.ipynb) 파일의 세 부분만 채워주시면 됩니다.
 - class MLP에서 second hidden layer 부분을 작성해주세요.
 - class MLP에서 Loss function을 작성해주세요.
 - train 함수 내에서 sess.run에 넘겨줄 feed_dict를 작성해주세요.
