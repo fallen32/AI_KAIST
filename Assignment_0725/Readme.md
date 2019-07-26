@@ -13,3 +13,5 @@ Temperature scaling 에 대한 설명은 같이 첨부된 samsung.pptx 파일을
 [제출]
 1. 수정한 ipynb 파일
 2. Temperature scaling 전/후 ECE 값
+
+haebeom.lee@kaist.ac.kr 로 제출해주시면 됩니다.
