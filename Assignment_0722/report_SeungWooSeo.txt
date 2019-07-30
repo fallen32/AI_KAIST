@@ -1,0 +1,22 @@
+            (1)
+	w1 = tf.get_variable('w1', [h0.get_shape()[1], n_hidden], initializer=w_init)
+            b1 = tf.get_variable('b1', [n_hidden], initializer=b_init)
+            h1 = tf.matmul(h0, w1) + b1
+            h1 = tf.nn.relu(h1)
+            h1 = tf.nn.dropout(h1, rate=self.dropout_rate)
+
+	(2)
+	loss = tf.reduce_mean(tf.losses.mean_squared_error(labels=self.y, predictions=predictions))
+
+	(3)
+	        feed_dict = {net.x: x_train, 
+                     net.y: y_train,
+                     net.dropout_rate: 0.3,
+                     net.lr: 1e-3
+                    }
+	
+	(4)
+	mean = np.mean(repeat_predictions, 0)
+	std = np.std(repeat_predictions, 0)
+
+해당 Learning rate에서 약 12000번정도 epoch을 돌려야 안정됨. 대략 [-2,2] 범위에서의 편차보다 그이상으로 갈때 편차가 커지는 것을 확인할 수 있음.
