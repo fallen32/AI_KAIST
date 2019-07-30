@@ -1,6 +1,8 @@
 #ignore dir list
 */.ipynb_checkpoints/
 */*/.ipynb_checkpoints/
+*/data/
 
 #ignore file list
 */*.h5
+*/*.zip
